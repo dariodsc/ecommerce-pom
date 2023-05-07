@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-pom",
+  "version": "1.0.0",
+  "description": "Em scripts, a descrição test chama o teste para execução",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 60000 tests/logintests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chromedriver": "^112.0.1",
+    "selenium-webdriver": "^4.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
